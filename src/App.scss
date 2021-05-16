@@ -1,0 +1,110 @@
+:root {
+  --primary: #141414;
+  --light: #2c2c2c;
+  --highlight-background: linear-gradient(145deg, #72f, #c1b);
+  --width: 480px;
+  --link-color: #d2c;
+}
+
+.App {
+  background-color: var(--primary);
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  text-align: left;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "GT Walsheim", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: left;
+
+  & > div {
+    width: var(--width);
+  }
+
+  .Header {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 116px;
+    line-height: 125px;
+
+    .Gradient {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      background-image: var(--highlight-background);
+    }
+
+    .Default {
+      color: white;
+      margin-left: 1rem;
+    }
+  }
+
+  .Description {
+    margin-top: 1.5rem;
+
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+  }
+
+  .Links {
+    margin-top: 1.5rem;
+
+    color: var(--link-color);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+}
+
+.Link {
+  color: inherit;
+
+  display: inline-flex;
+  width: -moz-max-content;
+  width: max-content;
+  flex-direction: row;
+  cursor: pointer;
+  letter-spacing: -0.008em;
+  line-height: 1;
+  place-items: center;
+  text-decoration: none;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.Arrow {
+  display: block;
+  overflow: visible;
+  height: 100%;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.ArrowContainer {
+  position: relative;
+  display: inline-block;
+  flex: none;
+
+  height: 0.6em;
+  margin-left: 0.32em;
+  -webkit-transform: translateY(8%);
+  transform: translateY(8%);
+}
