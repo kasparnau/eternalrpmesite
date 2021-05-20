@@ -59,7 +59,7 @@ function App() {
           No more buggy 2017 code.
         </div>
         <div className="Links">
-          <Link href="https://discord.gg/AZA9K5nMta" text="Join our discord" />
+          <Link href="https://discord.gg/geUvTyn55S" text="Join our discord" />
         </div>
       </motion.div>
     </div>
