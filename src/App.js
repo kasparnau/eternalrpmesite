@@ -1,5 +1,5 @@
 import "./App.scss";
-import { motion, useTransform, useViewportScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import "./img/background.png";
