@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,800;1,700&display=swap");
 
 :root {
   --primary: #1c0d1d;
@@ -47,11 +47,16 @@
   background-image: url(./img/feature_factions.png);
 }
 
+.bg-purple {
+  background-image: url(./img/section_bg_purple.png);
+}
+
+.bg-blue {
+  background-image: url(./img/section_bg_blue.png);
+}
+
 .Section {
   width: 100%;
-  background-image: url(./img/section_bg_purple.png);
-  background-position: center;
-  background-size: cover;
 
   display: flex;
   align-items: center;
@@ -141,8 +146,11 @@
 
 .Offer {
   display: flex;
-  background-color: var(--primary);
+  background-color: #1c0d1d9e;
   margin-top: 1rem;
+
+  border-radius: 4px;
+  box-shadow: 5px 6px 13px 0px black;
 
   width: 49.5%;
 
@@ -198,7 +206,7 @@
 }
 
 .AboutButton {
-  margin-top: 16px;
+  margin-top: 32px;
 }
 
 .Title {
@@ -227,6 +235,7 @@
     font-weight: 700;
     font-size: 116px;
     line-height: 125px;
+    font-family: "Oxanium";
 
     @media (max-width: 768px) {
       font-size: 58px;
