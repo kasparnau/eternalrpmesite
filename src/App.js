@@ -2,17 +2,6 @@ import "./App.scss";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-import "./img/background.png";
-import "./img/section_padding.png";
-import "./img/section_bg_purple.png";
-import "./img/section_bg_blue.png";
-import "./img/feature_cars.png";
-import "./img/feature_apartments.png";
-import "./img/feature_performance.png";
-import "./img/feature_mdt.png";
-import "./img/feature_criminals.png";
-import "./img/feature_factions.png";
-
 import React from "react";
 
 const discordInvite = `https://discord.gg/geUvTyn55S`;
